@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 lg:gap-16 py-12 px-4 sm:px-6 lg:px-28 max-w-screen-xl mx-auto">
         <div className="flex-shrink-0">
           <Image
-            src="/webDesign.png"
+            src="/WebDesign.png"
             alt="hero"
             width={374}
             height={374}
