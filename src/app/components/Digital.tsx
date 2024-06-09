@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Digital = () => {
-  return (
-    <div>Digital</div>
-  )
-}
+  return <div className=""></div>;
+};
 
-export default Digital
+export default Digital;

@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Solutions from "./components/Solutions";
+import Container from "./components/Container";
 
 const popins = Poppins({ weight: "400", subsets: ["latin"] });
 
@@ -20,10 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={popins.className}>
-        <header className="bg-gradient-to-b from-primary from-0% via-primary/20 via-20% to-transparent to-50% mx-auto">
+        <Container>
           <Navbar />
           <Solutions />
-        </header>
+        </Container>
         {children}
       </body>
     </html>
