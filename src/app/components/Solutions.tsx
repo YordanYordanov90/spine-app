@@ -20,7 +20,7 @@ const Solutions = () => {
       </div>
       <p className="font-bold text-xs sm:text-sm md:text-base text-center mt-4 pt-4 text-[#606060] max-w-xl sm:max-w-2xl mx-auto">
         Elevate your online presence with cutting-edge solutions. Discover
-        limitless possibilities for your digital agency's success.
+        limitless possibilities for your digital agency`&apos;`s success.
       </p>
 
       <div className="container flex flex-col sm:flex-row items-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10">
