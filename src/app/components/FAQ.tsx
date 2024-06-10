@@ -2,10 +2,16 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+type FAQ = {
+  id: number;
+  question: string;
+  answer: string;
+};
 
-  const data = [
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const data: FAQ[] = [
     {
       id: 1,
       question: "What is DigitalBoostPro?",
@@ -40,7 +46,7 @@ const FAQ = () => {
     },
   ];
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
