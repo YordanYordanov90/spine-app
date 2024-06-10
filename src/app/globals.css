@@ -3,33 +3,32 @@
 @tailwind utilities;
 
 @keyframes scroll {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(100%);
   }
-  
-  .animate-scroll {
-    animation: scroll 35s linear infinite;
+  100% {
+    transform: translateX(-100%);
   }
+}
 
-  @font-face {
-    font-family: 'SF Pro';
-    src: url('/fonts/SF-Pro-Display-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'SF Pro';
-    src: url('/fonts/SF-Pro-Display-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  .font-sf-pro {
-    font-family: 'SF Pro', sans-serif;
-  }
-  
+.animate-scroll {
+  animation: scroll 35s linear infinite;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-sf-pro {
+  font-family: "SF Pro", sans-serif;
+}
