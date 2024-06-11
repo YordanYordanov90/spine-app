@@ -34,7 +34,7 @@ const ContactForm = () => {
           <p className="text-lg text-[#606060] mb-8">
             Whether you have questions about our services, want to discuss{" "}
             <br /> a potential collaboration, or just feel like saying hello,
-            we'd love <br /> to hear from you.
+            we&apos;d love <br /> to hear from you.
           </p>
           <div className="text-gray-600 space-y-4 ">
             <p className="text-lg font-bold flex items-center gap-3">
