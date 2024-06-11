@@ -51,14 +51,15 @@ const FAQ = () => {
   };
 
   return (
-    <section className="flex justify-center items-center py-12 lg:py-20">
-      <div className="w-full max-w-screen-lg p-6 lg:mt-14 flex flex-col items-center">
-        <div className="relative w-full text-center">
+    <section className="flex justify-center items-center py-12 lg:py-20 container mx-auto lg:px-36">
+      <div className="w-full max-w-screen-lg p-6 lg:mt-14 flex flex-col items-start">
+        {/* Updated Section */}
+        <div className="relative w-full text-left">
           <h1 className="font-bold font-sf-pro text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
             Got Questions? We&apos;ve Got <br />
             Answers
           </h1>
-          <span className="absolute top-[60%] left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-[160px] sm:w-[200px] md:w-[266px] h-auto z-0">
+          <span className="absolute top-[58%] left-32 transform -translate-y-1/2 -translate-x-1/2 w-[160px] sm:w-[200px] md:w-[266px] h-auto z-0">
             <Image
               src="/Underline_06.png"
               alt="underline"
@@ -76,7 +77,12 @@ const FAQ = () => {
           {data.map((item, index) => (
             <div key={item.id} className="mb-4">
               <button
-                className="w-full text-left p-4 border border-gray-300 rounded-lg shadow-sm font-sf-pro font-semibold text-lg md:text-xl bg-gray-100 hover:bg-gray-200"
+                className={`w-full text-left p-4 border border-gray-300 bg-form_gray rounded-lg shadow-sm font-sf-pro font-semibold text-lg md:text-xl transition-colors duration-300 
+                  ${
+                    activeIndex === index
+                      ? "bg-primary text-black"
+                      : "bg-gray-100 hover:bg-gray-200"
+                  }`}
                 onClick={() => toggleFAQ(index)}
               >
                 {item.question}

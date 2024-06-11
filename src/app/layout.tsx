@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Solutions from "./components/Solutions";
 import Container from "./components/Container";
+import Footer from './components/Footer';
 
 const popins = Poppins({ weight: "400", subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Solutions />
         </Container>
         {children}
+        <Footer />
       </body>
     </html>
   );

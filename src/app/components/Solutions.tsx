@@ -32,7 +32,7 @@ const Solutions = () => {
           className="w-[100px] sm:w-[150px] md:w-[250px] lg:w-[300px] xl:w-[374px] h-auto"
         />
         <div className="flex flex-col items-center gap-8 sm:gap-12">
-          <button className="bg-[#B4FF5C] hover:transform hover:scale-100 hover:bg-black hover:text-white h-[40px] sm:h-[50px] md:h-[55px] rounded-xl font-bold w-[100px] sm:w-[120px] md:w-[140px] lg:w-[151px]">
+          <button className="bg-primary hover:transform hover:scale-100 hover:bg-black hover:text-white h-[40px] sm:h-[50px] md:h-[55px] rounded-xl font-bold w-[100px] sm:w-[120px] md:w-[140px] lg:w-[151px]">
             Start for free
           </button>
 

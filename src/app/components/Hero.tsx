@@ -116,19 +116,28 @@ const Hero = () => {
           <div className="w-[882px] h-0.5 bg-gray-300"></div>
           {/* Arrows */}
           <div className="flex justify-center items-center gap-2">
-            <button
-              onClick={prevSlide}
-              className="p-2 bg-gray-200 hover:bg-gray-300 rounded-full"
-            >
-              <span className="sr-only">Previous</span>
-              &#8592; {/* Left Arrow */}
+            <button onClick={prevSlide} className="p-2  rounded-full">
+              <span className="">
+                <Image
+                  src="/Frame.png"
+                  alt="Arrow"
+                  width={44}
+                  height={44}
+                  className="hover:bg-black rounded-full"
+                />
+              </span>
+              {/* Left Arrow */}
             </button>
-            <button
-              onClick={nextSlide}
-              className="p-2 bg-gray-200 hover:bg-gray-300 rounded-full"
-            >
-              <span className="sr-only">Next</span>
-              &#8594; {/* Right Arrow */}
+            <button onClick={nextSlide} className="p-2  ">
+              <span className="">
+                <Image
+                  src="/Frame 2.png"
+                  alt="Arrow"
+                  width={44}
+                  height={44}
+                  className="hover:bg-black rounded-full"
+                />
+              </span>
             </button>
           </div>
         </div>
