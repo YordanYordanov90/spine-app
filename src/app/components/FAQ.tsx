@@ -51,7 +51,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="flex justify-center items-center py-12 lg:py-20 container mx-auto lg:px-36">
+    <section className="flex items-center justify-center py-12 lg:py-20 max-h-[970px] mx-auto lg:px-28">
       <div className="w-full max-w-screen-lg p-6 lg:mt-14 flex flex-col items-start">
         {/* Updated Section */}
         <div className="relative w-full text-left">
@@ -65,7 +65,7 @@ const FAQ = () => {
               alt="underline"
               width={266}
               height={36}
-              className="w-full h-auto"
+              className="w-full h-auto "
             />
           </span>
           <p className="mt-6 text-base font-bold font-sf-pro text-black">
@@ -77,11 +77,11 @@ const FAQ = () => {
           {data.map((item, index) => (
             <div key={item.id} className="mb-4">
               <button
-                className={`w-full text-left p-4 border border-gray-300 bg-form_gray rounded-lg shadow-sm font-sf-pro font-semibold text-lg md:text-xl transition-colors duration-300 
+                className={`w-full text-left p-4 bg-form_gray rounded-lg shadow-sm font-sf-pro font-semibold text-lg md:text-xl transition-colors duration-300 
                   ${
                     activeIndex === index
                       ? "bg-primary text-black"
-                      : "bg-gray-100 hover:bg-gray-200"
+                      : "bg-[#F1F4F5] hover:bg-gray-200"
                   }`}
                 onClick={() => toggleFAQ(index)}
               >

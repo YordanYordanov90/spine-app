@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/", label: "About" },
-  { href: "/", label: "Services" },
-  { href: "/", label: "FAQ" },
-  { href: "/", label: "Contact" },
+  { href: "/About", label: "About" },
+  { href: "/Services", label: "Services" },
+  { href: "/FAQ", label: "FAQ" },
+  { href: "/Contact", label: "Contact" },
 ];
 
 const Navbar: React.FC = () => {
