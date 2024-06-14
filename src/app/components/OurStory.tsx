@@ -12,10 +12,10 @@ const OutStory = () => {
         <p className="text-xs sm:text-sm md:text-base">
           Our journey began with a vision to Problem finding and solution.{" "}
           <br className="hidden sm:block" />
-          Since then, we &apos; ve grown steadily, earning a reputation for excellence{" "}
-          <br className="hidden sm:block" />
-          in the DigitalBoostPro sector. Over the years, we &apos; ve worked with
-          numerous <br className="hidden sm:block" />
+          Since then, we &apos; ve grown steadily, earning a reputation for
+          excellence <br className="hidden sm:block" />
+          in the DigitalBoostPro sector. Over the years, we &apos; ve worked
+          with numerous <br className="hidden sm:block" />
           clients, helping them achieve has been to help people solve their
           problems.
         </p>
