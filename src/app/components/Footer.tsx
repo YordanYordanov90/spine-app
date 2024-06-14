@@ -50,9 +50,6 @@ const Footer = () => {
             <Link href="/" passHref>
               <FaInstagram className="text-2xl cursor-pointer" />
             </Link>
-            <Link href="/" passHref>
-              <FaLinkedin className="text-2xl cursor-pointer" />
-            </Link>
           </div>
         </div>
         {/* Dynamic Sections */}
