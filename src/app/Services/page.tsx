@@ -2,6 +2,7 @@ import React from "react";
 import AboutUsH1 from "../components/AboutUsH1";
 import Logos from '../components/Logos';
 import FAQ from '../components/FAQ';
+import OptimalSolutions from '../components/OptimalSolutions';
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
         description="At DigitalBoostPro, we're committed to delivering exceptional Digital Product solutions tailored to meet your unique needs. Our diverse range of services is designed to problems solve, optimize processes, etc."
       />
       <Logos />
+      <OptimalSolutions />
       <FAQ />
     </>
   );

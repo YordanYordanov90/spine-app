@@ -11,7 +11,7 @@ const links = [
   { href: "/Contact", label: "Contact" },
 ];
 
-const Navbar: React.FC = () => {
+const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -114,4 +114,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default Header;
